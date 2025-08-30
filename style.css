@@ -1,0 +1,65 @@
+  
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(235, 164, 235);
+}
+
+li {
+    float: right;
+}
+
+li.Aimee{
+    float: left;
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 14px;
+    font-family: sans-serif;
+}
+
+li a{
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(240, 190, 240);
+}
+
+  .h1 {
+        background-color: rgb(235, 164, 235);
+        text-align: center;
+    }
+
+    .nav {
+        color: rgb(29, 28, 28);
+
+    }
+    #h1 {
+        color: rgb(29, 28, 28);
+    }
+
+    main{
+        color: rgb(235, 164, 235);
+        background-color:rgb(235, 164, 235);
+    }
+
+    h5 {
+        font-family: sans-serif;
+        color: rgb(29, 28, 28);
+    }
+    .h2 {
+        font-family: sans-serif;
+        color: rgb(29, 28, 28);
+        text-align: center;
+    }
+    .li {
+        font-family: sans-serif;
+        color: rgb(29, 28, 28);
+    }

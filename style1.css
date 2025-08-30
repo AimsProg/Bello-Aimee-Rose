@@ -1,0 +1,45 @@
+  
+body{
+    background-color: rgb(238, 203, 214);
+}
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: rgb(233, 215, 233);
+}
+
+li {
+    float: right;
+}
+
+li.Aimee{
+    float: left;
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 14px;
+    font-family: sans-serif;
+}
+
+li a{
+    display: block;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    padding: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(219, 195, 219);
+}
+.h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+footer{
+    text-align: center;
+    
+}
