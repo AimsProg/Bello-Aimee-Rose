@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0a0f2c, #02142c);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-container {
+      border: 2px solid #00aaff;
+      padding: 30px;
+      border-radius: 10px;
+      background: rgba(0, 0, 30, 0.8);
+      box-shadow: 0 0 20px #00aaff;
+      width: 350px;
+      position: relative;
+    }
+
+    .login-container::before {
+      content: '';
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 20px;
+      background-color: #00aaff;
+      clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+    }
+
+    .login-box h2 {
+      color: #00aaff;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      border: 1px solid #00aaff;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #021e3a;
+    }
+
+    .input-group .icon {
+      color: #00aaff;
+      margin-right: 10px;
+    }
+
+    .input-group input {
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #00aaff;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #008ecc;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <h2>LOGIN</h2>
+       <form id="loginForm">
+        <div class="input-group">
+          <span class="icon">👤</span>
+          <input type="text" placeholder="Username" required />
+        </div>
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" placeholder="Password" required />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <div style="text-align:center; margin-top:18px;">
+        <a href="Registration.html" style="color:#00aaff; text-decoration:none; font-weight:500;">
+          Don't have an account? <span style="text-decoration:underline;">Create an Account</span>
+        </a>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script>
+    document.getElementById("loginForm").onsubmit = function (e) {
+      e.preventDefault();
+      Swal.fire(
+        'Log in Successfully!',
+        'Thank You!',
+        'success'
+      );
+    };
+  </script>
+</body>
+</html>
