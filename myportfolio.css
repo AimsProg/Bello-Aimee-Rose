@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #ff9a8b, #ff6a88, #ff99ac);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  background-color: #fff;
+  color: #ff6a88;
+  border: none;
+  font-weight: 600;
+}
+.hero .btn:hover {
+  background-color: #ffe0e6;
+  color: #ff3b5c;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #ff6a88;
+}
+
+/* Portfolio Cards */
+.portfolio-card img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.portfolio-card img:hover {
+  transform: scale(1.05);
+}
+.card-body {
+  text-align: center;
+}
+.card-title {
+  color: #ff6a88;
+  font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+  background: #fff5f7;
+}
+#contact label {
+  color: #444;
+}
+#contact button {
+  background-color: #ff6a88;
+  border: none;
+}
+#contact button:hover {
+  background-color: #ff3b5c;
+}
+
+/* Footer */
+footer {
+  background: #ff6a88;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}

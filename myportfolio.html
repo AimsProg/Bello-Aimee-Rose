@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="myportfolio.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+        crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+<body>
+  
+  
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="fas fa-file"></i> About</a>
+            </li>
+             <li>
+              <a class="nav-link" href="#achievements"><i class="fas fa-award"></i> Achievements</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#skills"><i class="fas fa-cog"></i> Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio"><i class="fas fa-briefcase"></i> Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="hero text-center d-flex align-items-center justify-content-center">
+      <div class="container">
+        <h1>Hello, I'm Aimee Rose</h1>
+        <p>3rd Year BSIT Student</p>
+        <a href="#about" class="btn btn-light btn-lg">Check My Portfolio</a>
+      </div>
+    </section>
+
+    
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <figure>
+              <img src="aim.jpg" alt="Aimee Rose" class="img-fluid rounded-circle shadow">
+              <figcaption class="text-center mt-2">Aimee Rose Bello</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-8">
+            <p><strong>Name:</strong> Aimee Rose Bello</p>
+            <p><strong>City:</strong> Zamboanga City</p>
+            <p><strong>Education:</strong> Pilar College of Zamboanga City Inc. – BSIT, 3rd Year (2025)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+   <section id="achievements" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Achievements</h2>
+    <div class="row text-center">
+      <div class="col-md-6 mb-3">
+        <div class="card shadow-sm p-4">
+          <i class="fas fa-graduation-cap fa-2x mb-2"></i>
+          <h5>Academic Progress</h5>
+          <p>Currently pursuing BSIT, 3rd Year</p>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <div class="card shadow-sm p-4">
+          <i class="fas fa-certificate fa-2x mb-2"></i>
+          <h5>Certifications</h5>
+          <p>None yet, but aiming for any certification related to IT.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   
+
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">My Skills</h2>
+        <div class="row text-center">
+          <div class="col-md-6 mb-3">
+            <div class="card shadow-sm p-4">
+              <i class="fas fa-code fa-2x mb-2"></i>
+              <h5>Front-End</h5>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="card shadow-sm p-4">
+              <i class="fas fa-pencil-ruler fa-2x mb-2"></i>
+              <h5>UI/UX Design</h5>
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <figure>
+              <img src="Private Resort Management System.png" alt="Private Resort Management System" class="img-fluid rounded shadow">
+              <figcaption class="text-center mt-2">Private Resort Management System</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-8">
+            <p>The Private Resort Management System is a web-based project that helps make resort work easier. 
+            It allows the owner, admin, and staff to manage bookings, payments, staff records, and reports in one system.
+            The system makes resort operations faster, reduces errors, and gives guests a better experience. 
+            This project shows how technology can help improve and organize the management of a private resort.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+ 
+  <footer class="bg-dark text-white py-3">
+  <div class="container text-center">
+    <h3>Contact Me</h3>
+    <p>&copy; 2025 Aimee | All Rights Reserved</p>
+    <div>
+      <a href="https://github.com/AimsProg" target="_blank" class="text-white me-3">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/aimee-rose-bello-944a47379/" target="_blank" class="text-white me-3">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+          crossorigin="anonymous"></script>
+
+  
+  <script>
+   
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+          document.querySelector(this.hash).scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
